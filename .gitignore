@@ -1,0 +1,3 @@
+# Ignore everything by default and add dot-files explicitly 
+# See README and https://drewdevault.com/2019/12/30/dotfiles.html for more info
+*
