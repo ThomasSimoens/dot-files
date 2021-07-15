@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# For use of these aliases, don't forget to add this to ~/.(z|b)shrc:
+# source ~/.aliases
+
+## Docker ##
+
+# docker-remove-stopped
+dors() {
+  docker rm $(docker ps --filter "status=exited" -q)
+}
